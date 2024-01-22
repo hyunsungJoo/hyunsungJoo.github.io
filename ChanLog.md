@@ -7,7 +7,4 @@
 - [x] search console
 
 ### 0.3.0
-- [x] naver searchadvisor add file
 
-### 0.4.0
-- [ ] [SEO-NAVER]( https://github.com/hyunsungJoo/hyunsungJoo.github.io/issues/5)
