@@ -1,7 +1,2 @@
 User-agent: *
-Disallow: /auth
-Disallow: /console
-Disallow: /tools
-Disallow: /search
 Allow: /
-Sitemap: https://hyunsungjoo.github.io//sitemap.xml
