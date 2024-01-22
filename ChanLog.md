@@ -6,5 +6,6 @@
 ### 0.2.0
 - [x] search console
 
-### 0.3.0
+### 0.4.1
+- [ ] update robots.txt
 
