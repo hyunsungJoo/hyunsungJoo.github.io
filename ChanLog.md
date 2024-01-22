@@ -7,4 +7,7 @@
 - [x] search console
 
 ### 0.3.0
-- [ ] naver searchadvisor
+- [x] naver searchadvisor
+
+### 0.4.1
+- [ ] update robots.txt
