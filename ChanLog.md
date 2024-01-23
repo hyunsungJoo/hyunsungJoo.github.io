@@ -7,5 +7,8 @@
 - [x] search console
 
 ### 0.4.1
-- [ ] update robots.txt
+- [x] update robots.txt
+
+### 0.4.2
+- [ ] update description
 
