@@ -13,4 +13,7 @@
 - [x] update description
 
 ### 0.5.0
-- [ ] firebase & deploy dev STG
+- [x] firebase & deploy dev ST
+
+### 0.6.0
+- [ ] study cssG
