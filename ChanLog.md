@@ -10,5 +10,7 @@
 - [x] update robots.txt
 
 ### 0.4.2
-- [ ] update description
+- [x] update description
 
+### 0.5.0
+- [ ] firebase & deploy dev STG

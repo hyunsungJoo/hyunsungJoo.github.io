@@ -1,0 +1,11 @@
+{
+  "hosting": {
+	  "site": "hyunsungjoo-dev",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
