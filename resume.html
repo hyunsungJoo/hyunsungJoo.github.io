@@ -16,8 +16,8 @@
     } */
 
     * {
-  box-sizing: border-box;
-  }
+      box-sizing: border-box;
+      }
 
     h1 {
       font-size: 24px;
@@ -57,6 +57,7 @@
     article {
       padding: 20px;
       width: 70%;
+      
   }
 
     section:after {
@@ -87,10 +88,17 @@
       width : 94%;
     }
 
+    .education {
+      width:200px;
+      height:150px; 
+      border:1px solid red; 
+      float:left;
+    }
+
+
   </style>
 </head>
 
-<body>
   <header>
     <h1>이력서</h1>
     <h2>주현성</h2>
@@ -104,6 +112,7 @@
 
   <section id="skills">
     <h2>주요기술</h2>
+    <br>
     <ul>
       <h3>JAVA, SPRING FRAMEWORK, MARIA DB, LINUX</h3>
     </ul>
@@ -125,28 +134,20 @@
 
     <section id="education">
       <h2>학력</h2>
-      <h3>2016-03 ~ 2023-02</h3>
-    </section>
-
-    <article>
-        <h3>[학교명] [학과] [학위] [졸업일]</h3>
-        <p>
-          [학력 내용]
-        </p>
+      <h3 style="width:300px; height:50px; border:1px; float:left;">2016-03 ~ 2023-02</h3>
+      <h3 style="width:300px; height:50px; border:1px; float:left;">[학교명] [학과] [학위] [졸업일]</h3>
         <br>
         <hr>
-    </article>
+    </section>
 
     <section id="project">
-      <h2>사이드 프로젝트</h2>
-      <p>
-        [프로젝트 내용]
-      </p>
+      <h2 style="width:300px; height:100px; border:1px; float:left;">사이드 프로젝트</h2>
+      <h3 style="width:300px; height:100px; border:1px; float:left;">[프로젝트 설명]</h3>
     </section>
 
 
   <footer>
-    <p>http://localhost:5500/resume.html © 2024</p>
+    <p>https://hyunsungjoo-dev.web.app/resume.html © 2024</p>
   </footer>
 
 </body>
