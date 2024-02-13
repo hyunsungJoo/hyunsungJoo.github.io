@@ -1,15 +1,16 @@
-# fly.toml app configuration file generated for nginx-blog on 2024-02-13T17:54:45+09:00
+# fly.toml app configuration file generated for nginx-blog-1 on 2024-02-13T18:03:16+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'nginx-blog'
+app = 'nginx-blog-1'
 primary_region = 'nrt'
 
 [build]
+	image = "hyunsungjoo/nginx-blog:0.1.0"
 
 [http_service]
-  internal_port = 8080
+  internal_port = 80
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
