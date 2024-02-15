@@ -16,4 +16,7 @@
 - [x] firebase & deploy dev ST
 
 ### 0.6.0
-- [ ] study cssG
+- [x] study css
+
+### 240215.1
+- [ ] Dockerfile
