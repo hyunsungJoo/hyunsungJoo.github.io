@@ -1,3 +1,6 @@
-FROM pierrezemb/gostatic
-COPY . /srv/http/
-CMD ["-port","8080","-https-promote", "-enable-logging"]
+FROM ubuntu:22.04
+
+RUN apt update
+RUN apt install -y nginx 
+
+CMD ["nginx", "-g", "daemon off;"]
