@@ -1,9 +1,15 @@
 FROM ubuntu:22.04
 
 RUN apt update
-RUN apt install -y nginx 
+RUN apt install -y nginx
 RUN apt install -y git
+RUN apt install cron
 
-COPY . /var/www/html/
+RUN rm -rf /var/www/html
+RUN git clone https://github.com/hyunsungJoo/hyunsungJoo.github.io /var/www/html
 
-CMD ["nginx", "-g", "daemon off;"]
+COPY pull.sh /var/www/html
+COPY blog-pull-cronjob /etc/cron.d/
+RUN crontab /etc/cron.d/blog-pull-cronjob
+
+CMD serviece cron start;nginx -g 'daemon off;'
