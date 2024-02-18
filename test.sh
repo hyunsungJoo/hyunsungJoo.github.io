@@ -1,2 +1,1 @@
-#!/bin/bash
-date | /home/joo/code/hyunsungJoo.github.io/logfile.txt
+/home/code/hyunsungJoo.github.io/run.sh  2 > &1  |  tee logfile.txt
