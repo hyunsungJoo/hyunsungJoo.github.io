@@ -15,22 +15,22 @@ services:
           cpus: '0.50'
           memory: 100M
         reservations:
-          cpus: '0.10'
-          memory: 20M
+          cpus: '0.20'
+          memory: 100M
 
   blog:
     # build: ../../docker_file/httpd
     image: hyunsungjoo/compose:0.1.0
     deploy:
       mode: replicated
-      replicas: 3 # https://docs.docker.com/compose/compose-file/deploy/#replicas
+      replicas: 4 # https://docs.docker.com/compose/compose-file/deploy/#replicas
       resources: # https://docs.docker.com/compose/compose-file/compose-file-v3/#resources
         limits:
-          cpus: '0.30'
-          memory: 150M
+          cpus: '0.40'
+          memory: 200M
         reservations:
-          cpus: '0.05'
-          memory: 30M
+          cpus: '0.10'
+          memory: 50M
     expose:
       - "80"
     environment:
