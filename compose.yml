@@ -36,3 +36,4 @@ services:
     environment:
       - VIRTUAL_HOST=aws.google.com
       - VIRTUAL_PORT=80
+
