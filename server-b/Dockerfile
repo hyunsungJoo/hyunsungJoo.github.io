@@ -6,7 +6,7 @@ RUN apt install -y git
 RUN apt install cron
 
 RUN rm -rf /var/www/html
-RUN git clone --branch 240216.server-b https://github.com/hyunsungJoo/hyunsungJoo.github.io.git /var/www/html
+RUN git clone --branch server-b https://github.com/hyunsungJoo/hyunsungJoo.github.io.git /var/www/html
 
 COPY pull.sh /var/www/html
 

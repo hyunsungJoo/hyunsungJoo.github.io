@@ -6,7 +6,7 @@ RUN apt install -y git
 RUN apt install cron
 
 RUN rm -rf /var/www/html
-RUN git clone -b main https://github.com/hyunsungJoo/hyunsungJoo.github.io.git /var/www/html
+RUN git clone -b server-a https://github.com/hyunsungJoo/hyunsungJoo.github.io.git /var/www/html
 
 COPY pull.sh /var/www/html
 
