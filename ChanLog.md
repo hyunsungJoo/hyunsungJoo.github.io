@@ -20,3 +20,6 @@
 
 ### 240215.5
 - [ ] github action
+
+### 240220.l
+- [ ] manual lb
